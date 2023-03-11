@@ -1,0 +1,96 @@
+.my-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.image-top
+{
+    max-width: 100%;
+    margin-top: 3rem;
+}
+.sub-my-ctr
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: left;
+    padding-left: 6rem;
+}
+
+.pr
+{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+
+.top-b
+{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border-radius: 0.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background-color: rgb(97, 97, 255);
+    border: solid 1px rgb(97, 97, 255);
+    transition: all 200ms ease-in;
+}
+.top-b:hover
+{
+    color: rgb(97, 97, 255);
+    background-color: white;
+}
+
+
+
+.accordion-item-body-content .te td{
+    padding: 2px;
+  }
+  .accordion-item-body-content  .tab_in{
+    border-spacing: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  .accordion-item-body-content .tab_in td{
+    padding: 5px 5px;
+    width: 30%;
+   }
+  .accordion-item-body-content .tab_in th{
+    padding: 5px 10px;
+    text-align: center;  
+    background-color: #ba68c8;
+    color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+   }
+   .accordion-item-body-content .tab_in tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+   }
+
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    
+  }
+
+  .tab_out td button{
+    display: inline-block;
+    padding: 6px 12px;
+    color: #fff;
+    border:none;
+    background-color: #1EA5F7;
+    outline: none !important;
+  }
